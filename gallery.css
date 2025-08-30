@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header {
+    height: 6vh;
+    width: 100%;
+    background-color: rgb(18, 136, 215);
+    display: flex;
+}
+
+.top-text {
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.top-call {
+    height: 6vh;
+    width: 500px;
+    background-color: rgb(18, 136, 215);
+    align-content: center;
+    text-align: center;
+    color: white;
+    word-spacing: 90px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+nav {
+    height: 15vh;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    margin-left: 15px;
+    color: black;
+    transition: 0.8s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+#home {
+    margin-left: 450px;
+    color: red;
+    border-top: 3px solid rgb(18, 136, 215);
+    border-bottom: 3px solid rgb(18, 136, 215);
+}
+.nav-1{
+    background-color: rgb(235, 235, 235);
+    height: 8vh;
+    width: 100%;
+
+}
+.nav-1 a{
+   text-decoration: none;
+   padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+}
+
+.div-1{
+    height: 40vh;
+    flex: 1;  
+    border-bottom: 1px solid rgba(255, 255, 255, 0.218);
+}
+.div-1 img{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 50%;
+}
+.div-1 h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(129, 127, 127);
+}
+.div-1 p{
+    padding-left: 40px;
+    font-size: 17px;
+      color: rgb(129, 127, 127)
+}
+.div-2{
+    height: 40vh;
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.218);
+}
+
+.div-2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.div-3{
+    height: 40vh;
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.218);
+    padding-left: 50px;
+}
+
+.div-3 img{
+    height: 20vh;
+    width: 40vh;
+}
+
+.copy-1{
+    position: absolute;
+    z-index: 50;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 310px;
+    margin-left: 400px;
+}
+
+
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-float img {
+  width: 35px;
+  height: 35px;
+}
+
+.call-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 90px;
+ left: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-float svg {
+  width: 30px;
+  height: 30px;
+}
